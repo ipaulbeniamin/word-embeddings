@@ -102,7 +102,6 @@ if __name__ == "__main__":
                                                            idx_to_words[torch.argmax(output).item()]))
 
             print(f"Epoch {epoch}, Iteration {i + 1}/{len(trigrams)}, Loss is {loss.item()}")
-            if epoch > 300:
-                time.sleep(0.1)
+
         loss_history.append(epoch_loss / len(trigrams))
     print(loss_history)
