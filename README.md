@@ -5,4 +5,4 @@
 ```
 Epoch 80, Iteration 394/665, Loss is 0.5324190258979797
 Sentence was ['drives a']  
-Predicted sentence ['drives a Ferrari']```
+Predicted sentence ['drives a Ferrari']
